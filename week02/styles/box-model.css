@@ -1,15 +1,49 @@
 .callout {
+    border : 1px bluedark;
+    padding : 10px;
+    margin : 20px;
+    background-color: darkblue;
+    width : 500px;
 	
 }
 
 .callout img {
+    float: right;
+    border : 1 px black;
+    margin : 0 0 10px 10px;
+    background-color: gray;
+    padding : 5px;
+    box-shadow : 0 0 10px black;
+    width : 150px;
+    height : auto;
 	
 }
 
 blockquote {
+    border-left : 5px darkblue;
+    padding : 10px;
+    margin : 20px;
+    background : darkblue;
+    width : 400px;
+    font-style : italic;
+    color : white;
+    font-family : georgia;
+    font-size : 1.2em;
+    line-height : 1.5em;
+
+    
 	
 }
 
 cite {
-	
+    display : block;
+    text-align : right;
+    border-top: 1 px dotted;
+    font-weight : bold;
+    margin - top : 10px;
+    font - style: normal;
+    color : white;
+    font-size : smaller;
+    font -family : arial;
+    
 }
