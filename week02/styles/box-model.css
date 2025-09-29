@@ -22,7 +22,7 @@
 blockquote {
     border-left : 5px darkblue;
     padding : 10px;
-    margin : 20px;
+    margin : 10px;
     background : darkblue;
     width : 400px;
     font-style : italic;
@@ -30,7 +30,8 @@ blockquote {
     font-family : georgia;
     font-size : 1.2em;
     line-height : 1.5em;
-
+    text-align: left;
+    box-shadow: gray 9px 9px 5pex;
     
 	
 }
