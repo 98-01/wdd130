@@ -1,0 +1,49 @@
+class="box"
+/*Universal Selector*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Class Selectors*/
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #444;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+aside {
+    width:20px;
+    text-align: center;
+}
+
+.overlay-heading {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.profile-pic {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  width: 150px;
+  border-radius: 8px;
+}
+main img {
+  /* you most likely will have other CSS declarations here */
+  float: right;
+  margin: 0 0 1em 1em;
+  width: 150px;
+  border-radius: 8px;
+  border: 1px solid blue;
+}
+aside h2{
+  position:absolute;
+  top: 47px; 
+  left:150px;
+}

@@ -26,7 +26,9 @@ nav, p, section, article{
     text-decoration: none;
 }
 .hero{
-    position:relative;
+    width: 100%;
+    height: auto:
+    position:absolute;
 }
 hero img{
     display:block;
