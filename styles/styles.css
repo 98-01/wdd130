@@ -17,7 +17,7 @@
     --text-color: #333;
     --background-color: #0ecff1;
     --link-color: rgb(77, 77, 206);
-}
+    }
 
 nav {
     background-color: var(--secondary-color);
@@ -67,8 +67,55 @@ main img{
     height: auto;
     ...
 }
+
 footer {
     margin-top: 15px;
     border-top: 1px var(--background-color)solid;
     text-align: center;
+}
+header, footer{
+    max-width=840px;
+    margin=0 auto;
+}
+nav{
+    background-color:var(--secondary-color);
+    padding:1em;
+    display:flex;
+    justify-content:space-evenly; 
+    align-items:center;
+}
+nav a{
+    display:block;
+    padding:0.5em;
+    text-decoration:none;
+    font-size:1.2em;
+    font-weight:700;
+    color:var(--link-color);
+}
+h1 {
+  border-bottom: 2px solid #000;
+}
+
+header, footer, .grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid {
+display:grid;
+align-items:center;
+
+
+}
+main{ 
+    grid-column:2/3;
+    margin:1em;
+    flex-direction: column-reverse;
+
+}
+aside{
+    width:20em;
+    position:center;
+
+    grid-column:1/2;
+    grid-row:1/2;
 }
