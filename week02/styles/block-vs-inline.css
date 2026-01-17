@@ -40,3 +40,16 @@ code {
     background-color: #3d503d;
     color: #fff;
 }
+img {
+    align-items: baseline;
+    display:block;
+    
+}
+a{
+    align-items: baseline;
+    margin:0 auto;
+}
+button{
+    align-content:end;
+    margin:0 auto;
+}
